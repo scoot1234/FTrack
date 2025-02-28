@@ -25,8 +25,12 @@ export default function Navbar() {
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <a href="/" className="navbar-link">
-            Logo
+          <a href="/" className="navbar-logo">
+            <img
+              src="/img/FTrack_logo_cropped.png"
+              alt="FTrack Logo"
+              className="logo-image"
+            />
           </a>
         </li>
         <li className="navbar-item">
