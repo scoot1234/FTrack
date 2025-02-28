@@ -1,0 +1,68 @@
+const FormSchema = z.object({
+  username: z.string().min(2, {
+    message: "Username must be at least 2 characters.",
+  }),
+})
+for maybe login username / email etc.
+
+
+Building a financial tracking webpage can be very useful for helping users monitor their expenses, investments, and overall financial health. Below are some key functions and features you could include:
+
+1. User Authentication & Profile Management
+Login/Sign-Up: Secure user authentication (using email/password or OAuth for Google/Facebook).
+Profile Settings: Allow users to update personal info, set financial goals, and manage notification preferences.
+Multi-account Support: Let users link multiple accounts (e.g., checking, savings, investment).
+2. Dashboard Overview
+Net Worth Tracker: Show an overview of assets (bank balances, investments) minus liabilities (loans, debts).
+Balance Summary: Display total balance across different accounts and wallets.
+Income/Expense Summary: Pie charts or graphs showing income vs. expenses.
+3. Income and Expense Tracking
+Expense Categories: Allow users to categorize their expenses (e.g., groceries, rent, utilities, entertainment).
+Transaction History: Display a history of income and expenses with options to add, edit, or delete transactions.
+Recurring Expenses: Allow users to track subscriptions or bills that recur regularly.
+Budgeting: Set budgets for different categories and track progress against them.
+Expense Predictions: Predict future expenses based on historical data.
+4. Financial Goals
+Savings Goals: Users can set specific savings goals (e.g., vacation fund, emergency fund) and track progress.
+Debt Repayment Goals: Track debt repayment progress (e.g., student loan, credit card).
+Investment Goals: Set and track investment milestones.
+5. Charts & Reports
+Income vs. Expense Graphs: Visual representation of financial inflows and outflows.
+Trend Analysis: Show trends over time (e.g., monthly income growth or expense increase).
+Tax Estimation: Estimate potential taxes owed based on income and spending.
+6. Transaction Importing
+Bank Integration (via API): Automatically import transactions from users' bank accounts or financial institutions (e.g., via Plaid or similar APIs).
+CSV/Excel Upload: Allow users to upload transaction history files for easy tracking.
+7. Investment Tracker
+Investment Portfolio: Track stocks, bonds, crypto, mutual funds, and other investment types.
+Market Value Updates: Automatically update the value of investments in real-time.
+Performance Tracking: Display profit/loss for each investment and overall portfolio performance.
+8. Alerts & Notifications
+Budget Alerts: Notify users when they’re close to exceeding their budget in a specific category.
+Bill Reminders: Remind users about upcoming bills or subscription renewals.
+Investment Alerts: Notify users about changes in the value of investments or market news.
+Spending Limit Warnings: Alert users if they’re approaching their spending limits.
+9. Debt Management
+Loan Repayment Schedules: Help users create a payment plan and track progress on loans.
+Interest Calculations: Show how much of a payment goes to principal vs. interest.
+Debt Snowball Method: Provide a method for users to prioritize paying off smaller debts first.
+10. Currency & Tax Settings
+Multi-currency Support: Allow users to track finances in different currencies.
+Tax Filing Information: Guide users on the potential tax impact of their investments, income, and expenses.
+11. Security & Privacy Features
+Two-factor Authentication (2FA): Add an extra layer of security for user accounts.
+Encryption: Ensure sensitive financial data is encrypted both in transit and at rest.
+Data Export: Allow users to export their financial data for backup or personal use.
+12. Mobile Integration
+Mobile App (optional): Build a mobile app version or make the website mobile-friendly for on-the-go tracking.
+13. Advanced Features
+AI/ML Predictions: Use machine learning to predict future expenses, income, or suggest improvements to budgeting.
+Cash Flow Forecasting: Help users predict future cash flows based on income/expense trends.
+Financial Advice Chatbot: Provide personalized financial tips or suggestions based on spending patterns.
+14. Social Features (optional)
+Financial Communities/Forums: Allow users to connect with others for support, tips, or sharing experiences.
+Shared Budgets: Let users create joint budgets with family members or partners.
+15. Integration with Financial Advisors (optional)
+Professional Advice: Users can connect with certified financial advisors for one-on-one advice (maybe through an integrated scheduling system).
+16. Tax Filing Integration (optional)
+Tax Filing Assistance: Help users prepare their taxes by integrating with tax software (e.g., TurboTax).
