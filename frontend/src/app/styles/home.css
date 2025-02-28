@@ -1,0 +1,42 @@
+Button {
+  max-width: 160px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card-logged {
+  cursor: pointer;
+}
+
+.first-row {
+  display: flex;
+  gap: 50px;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.two-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+}
+.income-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.income-graph {
+  flex: 1; /* Allow the graph to take up remaining space */
+  width: 100%; /* Make it fill the width of the card */
+  height: 100%; /* Make it fill the height of the card */
+}

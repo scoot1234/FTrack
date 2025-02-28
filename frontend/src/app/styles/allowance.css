@@ -1,0 +1,40 @@
+.table-container {
+  max-width: 900px; /* Sets a maximum width */
+  margin: 20px auto; /* Centers the table horizontally with a margin */
+  padding: 20px; /* Adds padding inside the container */
+  border: 1px solid #ccc; /* Adds a border around the table */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  background-color: #fff; /* Sets the background to white */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  overflow: hidden; /* Prevents content from overflowing the container */
+}
+.table-container table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders are collapsed */
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #f4f4f4; /* Light background for headers */
+  font-weight: bold;
+}
+
+/* Add hover effect on rows */
+.table-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit-button {
+  cursor: pointer;
+}
