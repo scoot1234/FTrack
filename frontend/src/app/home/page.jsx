@@ -331,6 +331,5 @@ recommended = financial/365
 
 necessities
 total
-financial
-0WJFHO12CYW2Y2ND alpha vantage api key
+
 */
