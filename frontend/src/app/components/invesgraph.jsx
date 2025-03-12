@@ -30,7 +30,7 @@ export default function Graph() {
 
   useEffect(() => {
     const url =
-      "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=0WJFHO12CYW2Y2ND";
+      "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=XXX";
 
     // Fetch data from API using fetch API
     fetch(url)
